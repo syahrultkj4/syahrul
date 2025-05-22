@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Beranda</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4CAF50, #2e7d32);
+      color: white;
+      text-align: center;
+      padding: 60px 20px 40px;
+      position: relative;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 5px;
+      opacity: 0.9;
+    }
+
+    nav ul {
+      list-style: none;
+      margin-top: 25px;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 12px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1em;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .content {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .content h2 {
+      font-size: 2em;
+      color: #2e7d32;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      font-size: 1.1em;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 0.9em;
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      nav ul li {
+        display: block;
+        margin: 10px 0;
+      }
+
+      header h1 {
+        font-size: 2em;
+      }
+
+      .content {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>👋 Selamat Datang di Beranda Syahrul</h1>
+    <p>Jelajahi halaman ini untuk mengenal saya, hobi, kontak, dan galeri pribadi!</p>
+    <nav>
+      <ul>
+        <li><a href="indexutama.html">Beranda</a></li>
+        <li><a href="index1profil.html">Profil</a></li>
+        <li><a href="index2hobi.html">Hobi</a></li>
+        <li><a href="index3kontak.html">Kontak</a></li>
+        <li><a href="index4galeri.html">Galeri</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Halo Pak Asri! 👨‍🏫</h2>
+    <p>
+      Terima kasih telah berkunjung ke halaman ini. Saya Syahrul, seorang pelajar dari SMK Negeri 1 Bantaeng, jurusan Teknik Jaringan Komputer dan Telekomunikasi (TJKT).  
+      Di halaman ini, Bapak dapat melihat profil saya, hobi saya, cara menghubungi saya, dan galeri sederhana yang saya buat.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Syahrul. Dibuat dengan semangat belajar dan tekad kuat 💻✨
+  </footer>
+
+</body>
+</html>
